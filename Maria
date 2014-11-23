@@ -3,7 +3,7 @@ public class Mario extends GameEntity {
     public boolean hat;
     private String hatColor;
     
-    public Mario () {
+    public Maria () {
         this.hat = true;
         this.hatColor = "Red"; 
     }
