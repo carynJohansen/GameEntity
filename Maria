@@ -15,6 +15,6 @@ public class Mario extends GameEntity {
     
     public String draw() {
         if (this.hat)
-            return (this.getClass() + " has a ");
+            return (this.getClass() + " has a " + hatColor + " hat.");
     }
 }
