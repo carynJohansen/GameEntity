@@ -1,0 +1,20 @@
+public class Mario extends GameEntity {
+    
+    public boolean hat;
+    private String hatColor;
+    
+    public Mario () {
+        this.hat = true;
+        this.hatColor = "Red"; 
+    }
+    
+    public Mario ( String hatColor ) {
+        this.hat = true;
+        this.hatColor = hatColor;
+    }
+    
+    public String draw() {
+        if (this.hat)
+            return (this.getClass() + " has a ");
+    }
+}
